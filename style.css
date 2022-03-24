@@ -31,3 +31,17 @@ tr:nth-child(3),
 tr:nth-child(6) {
   border-bottom: 3px solid #222;
 }
+
+.tile {
+  width: 10px;
+  height: 10px;
+  background-color: #29b6f6;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  table {
+    width: 96vmin;
+    height: 96vmin;
+  }
+}
